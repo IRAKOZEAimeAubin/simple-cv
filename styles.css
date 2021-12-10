@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    padding: 2rem 10rem 2rem 10rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .presentation h1{
+    font-weight: 700;
+}
+
+.header .presentation h2{
+    font-weight: 500;
+}
+
+.experience-education .title{
+    letter-spacing: .5rem;
+    font-weight: 700;
+    opacity: 50%;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience-education{
+    flex: 5;
+    margin-right: 5rem;
+}
+
+.experience-education .title{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.experience-education .work{
+    margin-bottom: 1rem;
+}
+
+.experience-education .work .ent-position{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.experience-education .work .ent-name{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.experience-education .work h4{
+    font-weight: 600;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+
+.contacts-skills{
+    flex: 1;
+    margin-top: 1rem;
+    opacity: 60%;
+    line-height: 1.8rem;
+}
+
+.contacts-skills .contact-address{
+    margin-bottom: 1rem;
+}
+
+.contacts-skills .skill{
+    margin-bottom: 1rem;
+}
+
+.contacts-skills h4{
+    font-weight: 400;
+}
+
+.skill li{
+    list-style: none;
+}
